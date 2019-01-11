@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://orig00.deviantart.net/b7ea/f/2015/232/0/a/beaker_s_day_off_by_blue_staple_studios-d96gu0v.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: white;
+}
+a .fa{
+    color: #0f0f0f;
+    font-size: 50px;
+    padding: 10px;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+.personal-info,.shadow{
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 250px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    background-image: url("https://i.imgur.com/q34dAEc.png");
+}
+.btn{
+    margin-top: 5px;
+}
+.skill-set{
+    flex: 1;
+    text-align: center;
+    margin-top: 30px;
+    height: 250px;
+}
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    background-image: url("https://i.imgur.com/zcnYWXA.png");
+}
+li{
+    list-style-type: none;
+    text-align: left;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .card-text{
+        visibility: hidden;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+.jumbotron{
+    display: flex;
+    color: whitesmoke;
+    background-color:#010101;
+}
+.name{
+    flex: 1;
+    }

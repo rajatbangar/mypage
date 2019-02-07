@@ -56,6 +56,9 @@ li{
     border-radius: 20px;
 }
 
+.hidden{
+    display: none;
+}
 @media screen and (max-width: 480px) {
     .card-text{
         visibility: hidden;
@@ -71,3 +74,6 @@ li{
 .name{
     flex: 1;
     }
+.hidden{
+    display: none;
+}

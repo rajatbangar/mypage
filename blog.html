@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-    <title>rajatbangar</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Rajat Bangar</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
+        .hidden{
+            display: none;
+        }
         @media screen and (max-width: 480px){
             .sidebar{
                 display: none;
             }
+        }
+        .hidden{
+            display: none;
         }
         @media screen and (max-width: 439px){
             *, ::after, ::before {
@@ -26,6 +33,9 @@
                 display: none;
             }
         }
+        .hidden{
+            display: none;
+        }
     </style>
 <body>
         <div class="container">
@@ -34,36 +44,30 @@
                 </div>
                 <div class="col-6 blog-name" style="background-color: white;">
                     <div class="media">
-                        <img class="mr-3 rounded-circle" src="https://i.imgur.com/u6ep0Ua.jpg" height="75" width="75" alt="Generic placeholder image" style="margin: 20px">
+                        <a href="index.html"><img class="mr-3 rounded-circle" src="https://i.imgur.com/u6ep0Ua.jpg" height="75" width="75" alt="Generic placeholder image" style="margin: 20px"></a>
                         <div class="media-body">
-                            <h2 class="mt-0 name" style="padding-top: 30px">Rajat Bangar</h2>
+                            <a href="index.html" style="color: #010101;text-decoration: none"><h2 class="mt-0 name" style="padding-top: 30px">Rajat Bangar</h2></a>
                         </div>
                     </div>
                     <div class="container" style="height: 50px">
                         <h4 style="color:gold">My Thoughts And Stories</h4>
                     </div>
+                    <div class="container" style="padding-top: 10px">
+                        <div id="story"></div>
+                        <hr style="border-width: 3px">
+                        <a href="javascript:prevPage()" id="btn_prev" style="text-align: left">< Prev</a>
+                        <a href="javascript:nextPage()" id="btn_next" style="text-align: right">Next ></a>
+                        <span id="page" style="visibility: hidden"></span>
 
-                    <!--<div class="container" style="height: 200px">
-                        <div style="display: flex;"><img src="https://i.imgur.com/u6ep0Ua.jpg" height="75" width="75" class="rounded-circle" style="flex: 0.1;margin: 20px"><h1 style="flex: 1; padding: 20px">Rajat Bangar</h1></div>
-                        <div class="container" style="height: 50px">
-                            <p style="font-size: 25px;">My Dank Stories</p>
-                        </div>
-                    </div>-->
-                    <div class="container story" style="padding-top: 10px">
-                        <h4>Reckless Driving</h4>
-                        <p style="font-size:0.87055rem;font-family: 'Times New Roman' ">January 17, 2019</p>
-                        <p style="text-align: justify;">
-                            Few day's ago, I was at home, and it was freezing outside. I woke up late this morning about 10am but there was no sign of sun. After completing my morning chores I went out to the gate of my house to get a look at the front road and then suddenly, my eyes got stuck on something. I went close to it to get a closer look, then I saw a little dog was lying there he was wounded from the leg and he was so weak that he couldn't able to walk a small distance, and then I figured out he came inside the house to get sun bath and feel warm. I thought he must be thirsty so I took some water in the bowl and put it to him, he looked at me innocently but didn't drink the water I thought he isn't drinking water he must be Hungry and again I went in the kitchen and brought something to eat but again he smelled it but didn't eat it. I thought he just needs rest and sun so I left the food and water close to him so that he can eat it when he wants to. I went back inside the home to complete my remaining work of the day. In the evening I came out of the home, but the dog was already gone somewhere. A few days later I saw the dog resting on the road side and trying to avoid the freezing air.I saw my cousin and friends who were standing close to the dog I went there and started chattering about the wounded dog. My cousin told us that the dog was crossing the road when some kid recklessly driving motorcycle came and mounted the motorcycle over the dog. The dog was badly hurt, but somehow, he survived. On the same night I was already in my bed preparing to get sweet dreams, but suddenly my ears caught some noise coming from outside my window I heard some dog was crying outside.I went outside the house to check what's going on and then I saw the same dog lying in a corner and shivering. I don't know the boy with motorcycle felt or not, but I was feeling so guilty and bad for the dog, but what else could I do.I put some sheet and sack on him so that he could feel some warm in that cold night. I came back to my room, but his pain and sorrow didn't stopped I couldn't sleep all night and kept thinking about the cruelty of the human being.
-                        </p>
-                    </div><hr style="border-width: 3px">
-                    <ul style="list-style-type: none;text-align: center"><li><a href="#" style="text-align: left">Next ></a></li>
-                        <li></li>
-                    </ul>
+
+                </div>
                 </div>
                 <div class="col sidebar">
                 </div>
             </div>
         </div>
+        <script src="js/jquery.js"></script>
+<script src="js/main.js">
+</script>
 </body>
-
 </html>
